@@ -1282,6 +1282,8 @@ Navbar Area CSS
   }
   .drodo-responsive-nav .mean-container a.meanmenu-reveal {
     color: var(--blackColor);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
   .drodo-responsive-nav .mean-container a.meanmenu-reveal span {
     background: var(--blackColor);
@@ -1290,6 +1292,7 @@ Navbar Area CSS
     position: relative;
     width: 50%;
     z-index: 999;
+    width: 100px!important;
   }
   .drodo-nav {
     display: none;
